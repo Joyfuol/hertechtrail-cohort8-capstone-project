@@ -1,7 +1,0 @@
-- Homepage
-- About me page
-- Portforlio page
-- Contact me page
-- responsiveness
-- Good color theme
-- Good and well structured content
