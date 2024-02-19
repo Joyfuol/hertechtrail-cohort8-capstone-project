@@ -1,8 +1,4 @@
-/*
-	Cosmix by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+
 
 
  /* ==============================================
@@ -21,18 +17,7 @@ $(document).ready(function() {
 });
 
 
- /* ==============================================
-  	  Progress Bar
-  	=============================================== */ 
-		$('.experience').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
-		if (visible) {
-			$.each($('div.progress-bar'),function(){
-				$(this).css('width', $(this).attr('aria-valuemax')+'%');
-			});
-			$(this).unbind('inview');
-		}
-	});
-
+ 
 	
  /* ==============================================
   	 Preloader
@@ -59,22 +44,7 @@ $(document).ready(function() {
 
  new WOW().init();
 
- /* ==============================================
-  	  Testimonials
-  	=============================================== */ 
-
-
-$(document).ready(function() {
  
-  var owl = $("#owl-testi");
- 
-  owl.owlCarousel({
-    autoPlay: 3000, //Set AutoPlay to 3 seconds
-    singleItem : true,
-    transitionStyle : "fade"
-  });
- 
-});
  
  
  /* ==============================================
@@ -161,29 +131,6 @@ $(document).ready(function() {
 	});
 	
 	
-	/* ==============================================
-  	  Clients
-  	=============================================== */
-	
-	
-    var owl = $("#client-slider");
-
-    owl.owlCarousel({
-
-        itemsCustom: [
-            [0, 2],
-            [450, 3],
-            [600, 3],
-            [700, 4],
-            [1000, 5],
-            [1200, 5],
-            [1400, 5],
-            [1600, 5]
-        ],
-        pagination: false,
-       autoPlay: 3000, //Set AutoPlay to 3 seconds
-
-    });
 	
 
 	/*====================================
